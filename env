@@ -1,0 +1,45 @@
+#--------------------------------------------------------------------
+# Example Environment Configuration file
+#
+# This file can be used as a starting point for your own
+# custom .env files, and contains most of the possible settings
+# available in a default install.
+#
+# By default, all of the settings are commented out. If you want
+# to override the setting, you must un-comment it by removing the '#'
+# at the beginning of the line.
+#--------------------------------------------------------------------
+
+#--------------------------------------------------------------------
+# ENVIRONMENT
+#--------------------------------------------------------------------
+
+CI_ENVIRONMENT = development
+
+
+
+#--------------------------------------------------------------------
+# DATABASE
+#--------------------------------------------------------------------
+
+database.default.hostname = localhost
+database.default.database = assigment-lyrid
+database.default.username = root
+database.default.password = 
+database.default.DBDriver = MySQLi
+database.default.DBPrefix =
+database.default.port = 3306
+
+
+
+#--------------------------------------------------------------------
+# LOGGER
+#--------------------------------------------------------------------
+
+logger.threshold = 4
+
+
+
+#JWT
+jwt.secretkey= 'eyJhbGciOiJIUzI1NiJ9.eyJSb2xlIjoiQWRtaW4iLCJJc3N1ZXIiOiJJc3N1ZXIiLCJVc2VybmFtZSI6IkphdmFJblVzZSIsImV4cCI6MTY1MTAyOTU5MSwiaWF0IjoxNjUxMDI5NTkxfQ.GEqEGG2K-AQwjGEwDRzChXRIQVm5GtJPbTfcXHrgX5w'
+jwt.ttl = 60
