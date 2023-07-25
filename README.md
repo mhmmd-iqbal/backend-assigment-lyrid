@@ -13,3 +13,5 @@ password: admin123
 see all routes using : php spark routes
 
 this code use JWT Auth
+
+run project by : php spark serve
